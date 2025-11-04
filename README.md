@@ -22,12 +22,12 @@
   <!-- Badges -->
 <!-- Stylish and aligned badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=poorialari2017&label=Profile%20views&style=flat&color=0c9aff&logo=github&logoColor=white" alt="Profile Views" style="margin-right: 20px;"/>
-  <a href="https://github.com/poorialari2017?tab=followers">
+  <img src="https://komarev.com/ghpvc/?username=Pooria-Lari&label=Profile%20views&style=flat&color=0c9aff&logo=github&logoColor=white" alt="Profile Views" style="margin-right: 20px;"/>
+  <a href="https://github.com/Pooria-Lari?tab=followers">
     <img src="https://img.shields.io/github/followers/poorialari2017?style=flat&label=Followers&logo=github&logoColor=white&color=4e5e6d" alt="Followers" style="margin-right: 20px;"/>
   </a>
-  <a href="https://github.com/poorialari2017">
-    <img src="https://img.shields.io/github/stars/poorialari2017?style=flat&label=Stars&logo=github&logoColor=white&color=fe962f" alt="Stars"/>
+  <a href="https://github.com/Pooria-Lari">
+    <img src="https://img.shields.io/github/stars/Pooria-Lari?style=flat&label=Stars&logo=github&logoColor=white&color=fe962f" alt="Stars"/>
   </a>
 </p>
 
@@ -58,8 +58,8 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=poorialari2017&show_icons=true&hide_border=true&rank_icon=github" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poorialari2017&layout=compact&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Pooria-Lari&show_icons=true&hide_border=true&rank_icon=github" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&layout=compact&hide_border=true" height="165" />
 
 
 </div>
