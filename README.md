@@ -1,4 +1,4 @@
-<!-- Profile README | poorialari2017 -->
+<!-- Profile README | Pooria-Lari -->
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 <!-- Typing Animation  -->
 <!-- Typing Animation (Red) -->
-<a href="https://github.com/poorialari2017">
+<a href="https://github.com/Pooria-Lari">
     <img src="https://readme-typing-svg.herokuapp.com?duration=3000&pause=500&center=true&vCenter=true&width=700&lines=Artificial+Intelligence+and+Robotics;Data+Structures+and+Algorithms&color=FF0000" alt="Typing SVG" />
 </a>
 
@@ -24,7 +24,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Pooria-Lari&label=Profile%20views&style=flat&color=0c9aff&logo=github&logoColor=white" alt="Profile Views" style="margin-right: 20px;"/>
   <a href="https://github.com/Pooria-Lari?tab=followers">
-    <img src="https://img.shields.io/github/followers/poorialari2017?style=flat&label=Followers&logo=github&logoColor=white&color=4e5e6d" alt="Followers" style="margin-right: 20px;"/>
+    <img src="https://img.shields.io/github/followers/Pooria-Lari?style=flat&label=Followers&logo=github&logoColor=white&color=4e5e6d" alt="Followers" style="margin-right: 20px;"/>
   </a>
   <a href="https://github.com/Pooria-Lari">
     <img src="https://img.shields.io/github/stars/Pooria-Lari?style=flat&label=Stars&logo=github&logoColor=white&color=fe962f" alt="Stars"/>
@@ -46,7 +46,7 @@
 ## 🛠 Skills & Tools
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9)](https://github.com/poorialari2017)
+[![Skills](https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9)](https://github.com/Pooria-Lari)
 
 </div>
 
@@ -91,7 +91,7 @@
 <!-- Snake Contribution Animation (enable after adding workflow) -->
 <!--
 <div align="center">
-  <img src="https://raw.githubusercontent.com/poorialari2017/poorialari2017/output/snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/snake.svg" alt="snake animation" />
 </div>
 -->
 
