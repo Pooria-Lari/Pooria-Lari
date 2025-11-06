@@ -58,8 +58,8 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Pooria-Lari&show_icons=true&hide_border=true&rank_icon=github" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&layout=compact&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Pooria-Lari&theme=dracula&show_icons=true&hide_border=true&rank_icon=github" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&theme=dracula&layout=compact&hide_border=true" height="165" />
 
 
 </div>
@@ -82,6 +82,8 @@
 
 ---
 
+
+
 ## 📫 Contact
 - Email: *poorialariacademic@gmail.com*
 - LinkedIn / Website: *www.linkedin.com/in/pooria-lari/*
@@ -94,4 +96,9 @@
   <img src="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/snake.svg" alt="snake animation" />
 </div>
 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/pacman-contribution-graph.svg">
+</picture>
 
