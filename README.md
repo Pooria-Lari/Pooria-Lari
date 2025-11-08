@@ -67,9 +67,9 @@
 ---
 
 ## 🚀 Featured Projects
-> (Update this section when you have highlighted repos)
 
-- **Project 1** — 
+
+- **Project 1** — [DataStructures-Algorithms](https://github.com/Pooria-Lari/DataStructures-Algorithms)
 - **Project 2** — 
 - **Project 3** —  
 
