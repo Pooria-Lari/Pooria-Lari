@@ -52,9 +52,32 @@
 
 - **Languages:** C++, C#, Python, Assembly  
 - **Focus Areas:** Algorithm Optimization, Efficient Data Structures, System-Level Understanding  
-
 ---
 
+![Clau's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Pooria-Lari&theme=react-dark)
+---
+<details> 
+  <summary><h2>📊 GitHub Stats</h2></summary>
+  <br/>
+  <!-- ---------------------- STATS ---------------------- -->
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img
+      alt="Pooria-Lari's Github Stats"
+      src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=Pooria-Lari&show_icons=true&count_private=true&theme=github_dark&hide_border=true"
+    />
+  </a>
+
+  <!-- ---------------------- MOST USED LANGUAGES ---------------------- -->
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img
+      alt="Pooria-Lari's Top Languages"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&langs_count=8&layout=compact&theme=github_dark&hide_border=true"
+    />
+  </a>
+  <br/>
+</details>
+
+<!--
 ## 📊 GitHub Stats
 <div align="center">
 
@@ -63,7 +86,7 @@
 
 
 </div>
-
+-->
 ---
 
 ## 🚀 Featured Projects
@@ -88,6 +111,7 @@
 - Email: *poorialariacademic@gmail.com*
 - LinkedIn / Website: *www.linkedin.com/in/pooria-lari/*
 
+
 ---
 
 <!-- Snake Contribution Animation (enable after adding workflow) -->
@@ -96,6 +120,7 @@
   <img src="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/snake.svg" alt="snake animation" />
 </div>
 -->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pooria-Lari/Pooria-Lari/output/pacman-contribution-graph.svg">
