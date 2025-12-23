@@ -45,10 +45,12 @@
 
 ## 🛠 Skills & Tools
 <div align="center">
-
-[![Skills](https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9)](https://github.com/Pooria-Lari)
-
+  <a href="https://github.com/Pooria-Lari"><img alt="Assembly" src="assets/asm.svg" width="48" height="48"></a>&nbsp;
+  <a href="https://github.com/Pooria-Lari"><img alt="Skills" src="https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9"></a>
 </div>
+
+
+
 
 - **Languages:** C++, C#, Python, Assembly  
 - **Focus Areas:** Algorithm Optimization, Efficient Data Structures, System-Level Understanding  
