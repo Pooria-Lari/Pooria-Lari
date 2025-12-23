@@ -55,7 +55,7 @@
 
 
 
-- **Languages:** C++, C#, Python, Assembly  
+- **Languages:** Assembly, C++, C#, Python  
 - **Focus Areas:** Algorithm Optimization, Efficient Data Structures, System-Level Understanding  
 ---
 
