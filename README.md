@@ -56,10 +56,11 @@
 
 ![Clau's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Pooria-Lari&theme=react-dark)
 ---
+<!--
 <details> 
   <summary><h2>📊 GitHub Stats</h2></summary>
   <br/>
-  <!-- ---------------------- STATS ---------------------- -->
+  <!-- ---------------------- STATS ----------------------
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img
       alt="Pooria-Lari's Github Stats"
@@ -67,7 +68,7 @@
     />
   </a>
 
-  <!-- ---------------------- MOST USED LANGUAGES ---------------------- -->
+  <!-- ---------------------- MOST USED LANGUAGES ----------------------
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img
       alt="Pooria-Lari's Top Languages"
@@ -76,8 +77,8 @@
   </a>
   <br/>
 </details>
+-->
 
-<!--
 ## 📊 GitHub Stats
 <div align="center">
 
@@ -86,7 +87,7 @@
 
 
 </div>
--->
+
 ---
 
 ## 🚀 Featured Projects
