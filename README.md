@@ -45,8 +45,9 @@
 ## 🛠 Skills & Tools
 <div align="center">
   <a href="https://github.com/Pooria-Lari"><img alt="Gear Top" src="assets/gear-top-002.svg" width="520"></a><br/>
-  <!--<a href="https://github.com/Pooria-Lari"><img alt="Assembly" src="assets/asm.svg" width="48" height="48"></a>&nbsp;-->
-  <a href="https://github.com/Pooria-Lari"><img alt="Skills" src="https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9"></a>
+  <a href="https://github.com/Pooria-Lari"><img alt="Assembly" src="assets/asm.svg" width="48" height="48"></a>&nbsp;
+  <!--<a href="https://github.com/Pooria-Lari"><img alt="Skills" src="https://skillicons.dev/icons?i=cpp,cs,python,matlab,unity,windows,git,github&perline=9"></a>-->
+  <a href="https://github.com/Pooria-Lari"><img alt="Skills" src="https://skillicons.dev/icons?i=cpp,cs,python,matlab,windows,git,github&perline=9"></a>
   <a href="https://github.com/Pooria-Lari"><img alt="Gear Bottom" src="assets/gear-bottom-002.svg" width="520"></a>
 </div>
 
