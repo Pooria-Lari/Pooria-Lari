@@ -1,9 +1,8 @@
 <!-- Profile README | Pooria-Lari -->
 
+
 <div align="center">
-
-
-
+  
   <h1>Pooria Lari</h1>
   <p>I have the spirit of Dr. Robotnik.</p>
 <img src="./assets/eggman_pixel_transparent.png" width="200" alt="Eggman Pixel Art" />
@@ -62,26 +61,23 @@
 ![Clau's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Pooria-Lari&theme=react-dark)
 ---
 
-<details> 
-  <summary><h2>📊 GitHub Stats</h2></summary>
-  <br/>
-  <!-- ---------------------- STATS ------------------------>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      alt="Pooria-Lari's Github Stats"
-      src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=Pooria-Lari&show_icons=true&count_private=true&theme=github_dark&hide_border=true"
-    />
-  </a>
+<table align="center" width="100%">
+  <tr>
+    <td width="70%" align="center">
+      <img
+        src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Pooria-Lari&show_icons=true&theme=github_dark&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
+        width="100%"
+      />
+    </td>
+    <td width="70%" align="center">
+      <img
+        src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&layout=pie&theme=github_dark&hide_border=true"
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
 
-  <!-- ---------------------- MOST USED LANGUAGES ------------------------>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      alt="Pooria-Lari's Top Languages"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pooria-Lari&langs_count=8&layout=compact&theme=github_dark&hide_border=true"
-    />
-  </a>
-  <br/>
-</details>
 
 <!--
 ## 📊 GitHub Stats
