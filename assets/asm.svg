@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect x="1" y="1" width="46" height="46" rx="10" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <text x="24" y="29" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="16" font-weight="700" fill="#ffffff">ASM</text>
+</svg>
