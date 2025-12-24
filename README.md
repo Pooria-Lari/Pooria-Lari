@@ -22,12 +22,9 @@
 <!-- Stylish and aligned badges -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Pooria-Lari&label=Profile%20views&style=flat&color=0c9aff&logo=github&logoColor=white" alt="Profile Views" style="margin-right: 20px;"/>
-  <a href="https://github.com/Pooria-Lari?tab=followers">
-    <img src="https://img.shields.io/github/followers/Pooria-Lari?style=flat&label=Followers&logo=github&logoColor=white&color=4e5e6d" alt="Followers" style="margin-right: 20px;"/>
-  </a>
-  <a href="https://github.com/Pooria-Lari">
-    <img src="https://img.shields.io/github/stars/Pooria-Lari?style=flat&label=Stars&logo=github&logoColor=white&color=fe962f" alt="Stars"/>
-  </a>
+<a href="https://github.com/Pooria-Lari?tab=followers"><img src="https://img.shields.io/github/followers/Pooria-Lari?style=flat&label=Followers&logo=github&logoColor=white&color=4e5e6d" alt="Followers"></a>
+<a href="https://github.com/Pooria-Lari"><img src="https://img.shields.io/github/stars/Pooria-Lari?style=flat&label=Stars&logo=github&logoColor=white&color=fe962f" alt="Stars"></a>
+
 </p>
 
 </div>
