@@ -61,6 +61,7 @@
 
 ![Clau's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Pooria-Lari&theme=react-dark)
 ---
+## 📊 GitHub Stats
 
 <table align="center" width="100%">
   <tr>
