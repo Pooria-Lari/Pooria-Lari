@@ -1,0 +1,113 @@
+<svg width="1000" height="460" viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="dotGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0fffb" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#56d4dd" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#56d4dd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="720" height="460" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- ================= base wires ================= -->
+  <path id="wireA"  d="M60,60 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireB"  d="M60,90 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireC"  d="M60,155 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireD"  d="M60,185 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireF"  d="M60,280 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireE"  d="M60,355 H340" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireN1" d="M232,280 H300 V385 H340" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireG1" d="M240,75 H300 V125 H340" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireG2" d="M240,170 H300 V155 H340" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireG4" d="M423,140 H460 V235 H500" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireG3" d="M410,370 H460 V265 H500" stroke="#30363d" stroke-width="2.5" fill="none"/>
+  <path id="wireOut" d="M583,250 H650" stroke="#30363d" stroke-width="2.5" fill="none"/>
+
+  <!-- ================= animated bright overlay (marching current) ================= -->
+  <g stroke="#56d4dd" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M60,60 H170" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite"/></path>
+    <path d="M60,90 H170" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite" begin="0.1s"/></path>
+    <path d="M60,155 H170" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite" begin="0.2s"/></path>
+    <path d="M60,185 H170" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite" begin="0.3s"/></path>
+    <path d="M60,280 H170" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite" begin="0.4s"/></path>
+    <path d="M60,355 H340" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-76" dur="1.6s" repeatCount="indefinite" begin="0.5s"/></path>
+    <path d="M232,280 H300 V385 H340" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-57" dur="1.3s" repeatCount="indefinite" begin="0.6s"/></path>
+    <path d="M240,75 H300 V125 H340" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-57" dur="1.3s" repeatCount="indefinite" begin="0.7s"/></path>
+    <path d="M240,170 H300 V155 H340" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-57" dur="1.3s" repeatCount="indefinite" begin="0.8s"/></path>
+    <path d="M423,140 H460 V235 H500" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-52" dur="1.2s" repeatCount="indefinite" begin="0.9s"/></path>
+    <path d="M410,370 H460 V265 H500" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-52" dur="1.2s" repeatCount="indefinite" begin="1s"/></path>
+    <path d="M583,250 H650" stroke-dasharray="10 9"><animate attributeName="stroke-dashoffset" values="0;-38" dur="1s" repeatCount="indefinite" begin="1.1s"/></path>
+  </g>
+
+  <!-- ================= gate glow (breathing) ================= -->
+  <path d="M170,45 L205,45 A35,30 0 0 1 205,105 L170,105 Z" fill="none" stroke="#58a6ff" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite"/></path>
+  <path d="M177,140 C198,140 212,150 240,170 C212,190 198,200 177,200 C187.5,185 187.5,155 177,140 Z" fill="none" stroke="#bc8cff" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite" begin="0.3s"/></path>
+  <path d="M170,255 L170,305 L220,280 Z" fill="none" stroke="#f0883e" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite" begin="0.6s"/></path>
+  <path d="M347,340 C368,340 382,350 410,370 C382,390 368,400 347,400 C357.5,385 357.5,355 347,340 Z" fill="none" stroke="#f778ba" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite" begin="0.9s"/></path>
+  <path d="M340,110 L375,110 A35,30 0 0 1 375,170 L340,170 Z" fill="none" stroke="#3fb950" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite" begin="1.2s"/></path>
+  <path d="M507,220 C528,220 542,230 570,250 C542,270 528,280 507,280 C517.5,265 517.5,235 507,220 Z" fill="none" stroke="#d29922" stroke-width="3" filter="url(#glow)" opacity="0.15"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.6s" repeatCount="indefinite" begin="1.5s"/></path>
+
+  <!-- ================= gates ================= -->
+  <!-- G1: AND -->
+  <path d="M170,45 L205,45 A35,30 0 0 1 205,105 L170,105 Z" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <!-- G2: OR (proper schematic curve) -->
+  <path d="M177,140 C198,140 212,150 240,170 C212,190 198,200 177,200 C187.5,185 187.5,155 177,140 Z" fill="#161b22" stroke="#bc8cff" stroke-width="2"/>
+  <!-- N1: NOT -->
+  <path d="M170,255 L170,305 L220,280 Z" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <circle cx="226" cy="280" r="6" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <!-- G3: XOR (OR curve + extra back line) -->
+  <path d="M339,400 C349.5,385 349.5,355 339,340" fill="none" stroke="#f778ba" stroke-width="2"/>
+  <path d="M347,340 C368,340 382,350 410,370 C382,390 368,400 347,400 C357.5,385 357.5,355 347,340 Z" fill="#161b22" stroke="#f778ba" stroke-width="2"/>
+  <!-- G4: NAND -->
+  <path d="M340,110 L375,110 A35,30 0 0 1 375,170 L340,170 Z" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+  <circle cx="417" cy="140" r="6" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+  <!-- G5: NOR (OR curve + bubble), final gate -->
+  <path d="M507,220 C528,220 542,230 570,250 C542,270 528,280 507,280 C517.5,265 517.5,235 507,220 Z" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+  <circle cx="577" cy="250" r="6" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+
+  <!-- gate labels -->
+  <text x="205" y="125" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">AND</text>
+  <text x="205" y="220" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">OR</text>
+  <text x="195" y="325" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">NOT</text>
+  <text x="375" y="420" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">XOR</text>
+  <text x="375" y="190" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">NAND</text>
+  <text x="535" y="300" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">NOR</text>
+
+  <!-- ================= pins ================= -->
+  <circle cx="60" cy="60" r="4" fill="#56d4dd"/>
+  <circle cx="60" cy="90" r="4" fill="#56d4dd"/>
+  <circle cx="60" cy="155" r="4" fill="#56d4dd"/>
+  <circle cx="60" cy="185" r="4" fill="#56d4dd"/>
+  <circle cx="60" cy="280" r="4" fill="#56d4dd"/>
+  <circle cx="60" cy="355" r="4" fill="#56d4dd"/>
+  <circle cx="650" cy="250" r="4" fill="#56d4dd"/>
+
+  <text x="45" y="64" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">A</text>
+  <text x="45" y="94" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">B</text>
+  <text x="45" y="159" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">C</text>
+  <text x="45" y="189" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">D</text>
+  <text x="45" y="284" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">F</text>
+  <text x="45" y="359" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="end">E</text>
+  <text x="662" y="254" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9" text-anchor="start">OUT</text>
+
+  <!-- ================= traveling glow dots (the "current") ================= -->
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite"><mpath href="#wireA" xlink:href="#wireA"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite" begin="0.1s"><mpath href="#wireB" xlink:href="#wireB"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite" begin="0.2s"><mpath href="#wireC" xlink:href="#wireC"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite" begin="0.3s"><mpath href="#wireD" xlink:href="#wireD"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite" begin="0.4s"><mpath href="#wireF" xlink:href="#wireF"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.5s"><mpath href="#wireE" xlink:href="#wireE"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.6s"><mpath href="#wireN1" xlink:href="#wireN1"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.7s"><mpath href="#wireG1" xlink:href="#wireG1"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.8s"><mpath href="#wireG2" xlink:href="#wireG2"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.2s" repeatCount="indefinite" begin="0.9s"><mpath href="#wireG4" xlink:href="#wireG4"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1.2s" repeatCount="indefinite" begin="1s"><mpath href="#wireG3" xlink:href="#wireG3"/></animateMotion></circle>
+  <circle r="5.5" fill="url(#dotGrad)" filter="url(#glow)"><animateMotion dur="1s" repeatCount="indefinite" begin="1.1s"><mpath href="#wireOut" xlink:href="#wireOut"/></animateMotion></circle>
+</svg>
