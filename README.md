@@ -31,11 +31,11 @@
 
 ---
 ## 🧑‍💻 About Me
--  Im NERD 
-- I love mathematics
-- I love Algorithm
-- I love AI
-- And Computer System Architecture
+- NERD 
+- Mathematics
+- Algorithm
+- AI
+- Computer System Architecture
 <a href="https://en.wikipedia.org/wiki/Logic_synthesis">
  <img src="./assets/logic-circuit-flow-v2.svg" alt="logic-circuit-flow-v2" />
 </a>
