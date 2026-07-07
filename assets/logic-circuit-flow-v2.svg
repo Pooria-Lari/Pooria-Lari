@@ -1,4 +1,4 @@
-<svg width="1000" height="460" viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="720" height="460" viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -14,7 +14,7 @@
     </radialGradient>
   </defs>
 
-  <rect x="1" y="1" width="720" height="460" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <!-- <rect x="1" y="1" width="720" height="460" rx="20" fill="none" stroke="#30363d" stroke-width="1.5"/> -->
 
   <!-- ================= base wires ================= -->
   <path id="wireA"  d="M60,60 H170" stroke="#30363d" stroke-width="2.5" fill="none"/>
@@ -56,21 +56,21 @@
 
   <!-- ================= gates ================= -->
   <!-- G1: AND -->
-  <path d="M170,45 L205,45 A35,30 0 0 1 205,105 L170,105 Z" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <path d="M170,45 L205,45 A35,30 0 0 1 205,105 L170,105 Z" fill="none" stroke="#58a6ff" stroke-width="2"/>
   <!-- G2: OR (proper schematic curve) -->
-  <path d="M177,140 C198,140 212,150 240,170 C212,190 198,200 177,200 C187.5,185 187.5,155 177,140 Z" fill="#161b22" stroke="#bc8cff" stroke-width="2"/>
+  <path d="M177,140 C198,140 212,150 240,170 C212,190 198,200 177,200 C187.5,185 187.5,155 177,140 Z" fill="none" stroke="#bc8cff" stroke-width="2"/>
   <!-- N1: NOT -->
-  <path d="M170,255 L170,305 L220,280 Z" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
-  <circle cx="226" cy="280" r="6" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <path d="M170,255 L170,305 L220,280 Z" fill="none" stroke="#f0883e" stroke-width="2"/>
+  <circle cx="226" cy="280" r="6" fill="none" stroke="#f0883e" stroke-width="2"/>
   <!-- G3: XOR (OR curve + extra back line) -->
   <path d="M339,400 C349.5,385 349.5,355 339,340" fill="none" stroke="#f778ba" stroke-width="2"/>
-  <path d="M347,340 C368,340 382,350 410,370 C382,390 368,400 347,400 C357.5,385 357.5,355 347,340 Z" fill="#161b22" stroke="#f778ba" stroke-width="2"/>
+  <path d="M347,340 C368,340 382,350 410,370 C382,390 368,400 347,400 C357.5,385 357.5,355 347,340 Z" fill="none" stroke="#f778ba" stroke-width="2"/>
   <!-- G4: NAND -->
-  <path d="M340,110 L375,110 A35,30 0 0 1 375,170 L340,170 Z" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
-  <circle cx="417" cy="140" r="6" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+  <path d="M340,110 L375,110 A35,30 0 0 1 375,170 L340,170 Z" fill="none" stroke="#3fb950" stroke-width="2"/>
+  <circle cx="417" cy="140" r="6" fill="none" stroke="#3fb950" stroke-width="2"/>
   <!-- G5: NOR (OR curve + bubble), final gate -->
-  <path d="M507,220 C528,220 542,230 570,250 C542,270 528,280 507,280 C517.5,265 517.5,235 507,220 Z" fill="#161b22" stroke="#d29922" stroke-width="2"/>
-  <circle cx="577" cy="250" r="6" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+  <path d="M507,220 C528,220 542,230 570,250 C542,270 528,280 507,280 C517.5,265 517.5,235 507,220 Z" fill="none" stroke="#d29922" stroke-width="2"/>
+  <circle cx="577" cy="250" r="6" fill="none" stroke="#d29922" stroke-width="2"/>
 
   <!-- gate labels -->
   <text x="205" y="125" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8b949e" text-anchor="middle">AND</text>
