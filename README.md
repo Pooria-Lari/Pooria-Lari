@@ -30,7 +30,6 @@
 </div>
 
 ---
-
 ## 🧑‍💻 About Me
 -  Im NERD 
 - I love mathematics
@@ -40,6 +39,7 @@
 <a href="https://en.wikipedia.org/wiki/Logic_synthesis">
  <img src="./assets/logic-circuit-flow-v2.svg" alt="logic-circuit-flow-v2" />
 </a>
+
 ---
 
 ## 🛠 Skills & Tools
