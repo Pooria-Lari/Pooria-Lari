@@ -36,6 +36,9 @@
 - I love mathematics
 - I love Algorithm
 - I love AI
+- And Computer System Architecture
+
+<img src="./assets/logic-circuit-flow-v2.svg" alt="logic-circuit-flow-v2" />
 
 ---
 
